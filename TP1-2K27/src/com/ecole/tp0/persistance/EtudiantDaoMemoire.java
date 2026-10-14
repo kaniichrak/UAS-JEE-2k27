@@ -1,6 +1,8 @@
-package com.ecole.tp0.persistance;
+package src.com.ecole.tp0.persistance;
 
-import com.ecole.tp0.metier.Etudiant;
+
+
+import src.com.ecole.tp0.metier.Etudiant;
 
 import java.util.ArrayList;
 import java.util.List;

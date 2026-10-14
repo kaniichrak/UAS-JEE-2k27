@@ -1,20 +1,18 @@
-package com.ecole.tp0.presentation;
+package src.com.ecole.tp0.presentation;
 
-import com.ecole.tp0.metier.Etudiant;
-import com.ecole.tp0.persistance.EtudiantDao;
-import com.ecole.tp0.persistance.EtudiantDaoMemoire;
+ import src.com.ecole.tp0.metier.Etudiant;
+ import src.com.ecole.tp0.persistance.EtudiantDao;
+ import src.com.ecole.tp0.persistance.EtudiantDaoMemoire;
 
 public class Main {
-    public  static  void main (String[] args){
-        Etudiant e1 = new Etudiant(1,"Abidi","Iheb");
-        Etudiant e2 = new Etudiant(2,"Kani","Ichrak");
+    public static void main(String[] args) {
+        Etudiant e1 = new Etudiant(1, "Abidi", "Iheb");
+        Etudiant e2 = new Etudiant(2, "Kani", "Ichrak");
         Etudiant e3 = new Etudiant();
-
 
         e3.setId(3);
         e3.setNom("Gharbi");
         e3.setPrenom("Yasmine");
-
 
         e1.afficher();
         e2.afficher();
@@ -33,6 +31,5 @@ public class Main {
 
         e2 = null;
         System.out.println("e2 vaut maintenant : " + e2);
-
     }
 }

@@ -1,4 +1,4 @@
-package com.ecole.tp0.metier;
+package src.com.ecole.tp0.metier;
 
 public class Etudiant {
     private int id ;
